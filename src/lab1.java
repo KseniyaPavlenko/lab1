@@ -51,6 +51,7 @@ class task4 {
                     if (2 * g + 4 * k == n) {
                         System.out.println("\nGusy " + g);
                         System.out.println("Kroli " + k);
+
                     }
 
                 }
