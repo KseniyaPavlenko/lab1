@@ -37,8 +37,26 @@ class task3 {
  *task 4 #107
  *У гусей и кроликов вместе 64 лапы. Сколько может быть кроликов и гусей (указать все сочетания)?
  */
-class task4{
+class task4 {
+    public static void main(String[] args) {
 
+        int g;
+        int k;
+        int n = 64;
+
+
+        {
+            for (g = 0; g <= n; g++) {
+                for (k = 0; k <= n / 2; k++) {
+                    if (2 * g + 4 * k == n) {
+                        System.out.println("\nGusy " + g);
+                        System.out.println("Kroli " + k);
+                    }
+
+                }
+            }
+        }
+    }
 }
 /*
  *task 5 #132
